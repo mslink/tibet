@@ -1,0 +1,24 @@
+
+* prefer CamelCase file names
+* use a grid spacing of 16px of color #d6eaff
+* set Preferences -> Snap Lines for default distances between edges etc.
+* draw multiplicities below/left
+* use $ for index
+* use % for filter
+* use & for show
+* use @ for suggest
+* use + for browse
+* draw >right< laid-out association structures
+* align right laid-out structures >horizontally<
+* save configuration via /home/ms/.yEd/settings.xml
+* use a general node height of 40px
+* draw modifiers (annotations/labels/markers) above/right
+* draw role names, group names, etc. right/below
+* draw role and edge names with more than 2 characters
+* expose as less data as possible to external (minimal exposition)
+* elements annotated with ':ignore' will not be parsed
+* avoid using keywords in concept and attribute names (like 'type', 'class', etc.)
+* name meta modeling files with prefixing colon ':', e.g. :module, :classification, :supply, etc.
+* make use of the open model concept, just repeat concepts for the sake of graphical clarity
+* write modifiers in one annotation (e.g. '$%&')
+* prefix tibet and tor specific concepts with TS (for TibetSecurity / TibetSupport)

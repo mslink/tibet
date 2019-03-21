@@ -1,0 +1,20 @@
+
+module Tibet
+
+  class VirtualEnumerationType < VirtualEntityType
+
+    def entity?
+      false
+    end
+
+    def enumeration?
+      true
+    end
+
+    def enumerates?
+      true
+    end
+
+  end
+
+end
